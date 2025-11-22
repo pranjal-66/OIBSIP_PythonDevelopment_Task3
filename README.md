@@ -1,84 +1,124 @@
-💬 Advanced Python Chat Application — Tkinter + Socket Programming
+# 💬 Advanced Python Chat Application — Tkinter + Socket Programming
 
-A desktop real-time chat client built using Python, Tkinter, and Socket Programming.
-This project enables smooth, responsive communication with a modern UI, message bubbles, authentication, theme switching, and system notifications.
+A real-time desktop chat client built using **Python**, **Tkinter**, and **Socket Programming**.
+This project provides smooth, responsive messaging with a modern interface, authentication system, message bubbles, theme switching, and real-time updates.
 
-📌 Features
-✔ Modern Tkinter Chat UI
+---
 
-Clean, responsive layout
+## 🚀 Features
 
-Message bubbles with timestamps
+### ⭐ Modern Tkinter Chat UI
 
-Auto-scroll message area
+* Clean and responsive layout
+* Message bubbles with timestamps
+* Light/Dark theme switching
+* Organized room-based chat
 
-System messages displayed separately
+### ⭐ User Authentication
 
-✔ User Authentication
+* Login & Registration
+* Status bar showing active user
+* Error and validation handling
 
-Login & registration system
+### ⭐ Real-Time Communication
 
-Validation for empty or incorrect credentials
+* Multi-room chat
+* Instant message broadcasting
+* System notifications when minimized
 
-✔ Light & Dark Themes
+### ⭐ File Sharing
 
-Toggle between modern themes
+* Share files with anyone in the room
+* Chunk-based transfer for large files
+* Automatic UI updates on file reception
 
-UI elements adapt automatically
+### ⭐ Additional Enhancements
 
-Improved readability and visual comfort
+* Desktop system notifications (using `plyer`)
+* Auto-scroll to latest messages
+* Emoji shortcuts (ex: `:smile:` → 😄)
 
-✔ System Notifications
+---
 
-Desktop notifications for new messages
+## 🛠 Technologies Used
 
-Works even when the window is minimized
+* **Python 3**
+* **Tkinter** (GUI framework)
+* **Socket Programming**
+* **Threading**
+* **JSON-based protocol**
+* **Plyer** (notifications)
+* **OS & datetime modules**
 
-✔ Multi-Room Chat Support
+---
 
-Join different chat rooms
+## 📁 Project Structure
 
-Separate message handling for each room
+```
+📂 OIBSIP_PythonDevelopment_Task3
+│
+├── client1.py        # Main chat client with GUI
+├── server1.py        # Server handling rooms, login, and messaging
+└── README.md         # Project documentation
+```
 
-✔ File Sharing Support
+---
 
-Send and receive files
+<img width="1666" height="790" alt="Screenshot 2025-11-22 214340" src="https://github.com/user-attachments/assets/f8972150-5ce2-43f5-9091-8a92cb35a17d" />
 
-Progress feedback and safe transfer handling
 
-✔ Smooth Real-Time Messaging
-Non-blocking socket architecture
+## ▶️ How to Run the Application
 
-Continuous background listener thread
+### **1️⃣ Run the Server**
 
-🛠 Technologies Used
-
-Python 3
-
-Tkinter (Graphical Interface)
-
-Socket Programming (Networking)
-
-Threading (Real-time communication)
-
-Plyer (Desktop notifications)
-
-JSON (Storing user data)
-
-▶️ How to Run the Application
-1. Start the server
+```bash
 python server1.py
+```
 
-2. Launch the client
+### **2️⃣ Start the Client**
+
+```bash
 python client1.py
+```
 
-Make sure the server is running before connecting the client.
-<img width="1666" height="790" alt="Screenshot 2025-11-22 214340" src="https://github.com/user-attachments/assets/bef2b791-996f-4442-84bb-795735d09512" />
+### **3️⃣ Log In / Register**
 
-🤝 Contributing
+* Click **Login/Register**
+* Enter Username & Password
+* Choose **Login** or **Register** when prompted
 
-Pull requests are welcome!
-If you find issues or want to improve the UI/logic, feel free to open an issue.
+### **4️⃣ Start Chatting**
 
+* Join a room
+* Send messages
+* Share files
+* Switch themes
 
+---
 
+## 💡 Skills Learned
+
+* Building a real-time communication system
+* Implementing socket-based server-client architecture
+* Designing GUI applications with Tkinter
+* UI/UX improvements for desktop apps
+* Handling multi-threading safely
+* Working with JSON message protocols
+* Improving app usability & user-focused interaction
+
+---
+
+## 🌱 Future Enhancements
+
+* Improved animation & modern UI widgets
+* Chat history storage using SQLite
+* User profile system
+* Message reactions & quotes
+* Group admin controls
+
+---
+
+## 👨‍💻 Author
+
+Pranjal Karande
+www.linkedin.com/in/pranjal-karande-83992b299
